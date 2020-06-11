@@ -1,0 +1,248 @@
+﻿/***** RED COLOR THEME 
+
+    RED-COLOR: #46C0AB;
+    TEXT-COLOR: #666666;
+
+*****/
+
+/* BUTTON CONTROL
+   ----------------------------------------- */
+html .ui-page-theme-a .ui-btn,
+html .ui-bar-a .ui-btn,
+html .ui-body-a .ui-btn,
+html body .ui-group-theme-a .ui-btn,
+html body .ui-btn.ui-btn-a,
+html .ui-page-theme-a .ui-btn:visited,
+html .ui-bar-a .ui-btn:visited,
+html .ui-body-a .ui-btn:visited,
+html body .ui-group-theme-a .ui-btn:visited,
+html body .ui-btn.ui-btn-a:visited {
+    background: #FF6B57;
+    border-color: #FF6B57;
+    color: #fff;
+}
+    html .ui-page-theme-a .ui-btn:active {
+        background: #FF6B57;
+        border-color: #FF6B57;
+        /** color: #fff !important;**/
+    }
+html .ui-page-theme-a .button-wrapper .ui-btn, html .ui-page-theme-a .button-wrapper .ui-btn:hover {
+    background: #FF6B57;
+    color: #ffffff;
+}
+
+html .ui-page-theme-a .button-wrapper .ui-btn {
+    background: #FF6B57;
+    border-color: #FF6B57;
+    color: #fff;
+}
+
+/* PARAGRAPH CONTROL
+   ----------------------------------------- */
+
+/* SWITCH CONTROL
+   ----------------------------------------- */
+html .ui-page-theme-a .switch-wrapper .toggle-text label {
+    color: #666666;
+}
+.ui-flipswitch .ui-btn.ui-flipswitch-on, .ui-flipswitch .ui-btn.ui-flipswitch-on:hover {
+      background-color: #4c4c4c;
+}
+html .ui-page-theme-a .switch-wrapper .ui-flipswitch-active {
+    background-color: #ffdfdc !important;
+    border: 1px solid #ffdfdc !important;
+}
+    html .ui-page-theme-a .switch-wrapper .ui-flipswitch-active .ui-btn {
+        background-color: #FF6B57 !important;
+        color: #FF6B57;
+    }
+html .ui-page-theme-a .switch-wrapper .ui-btn {
+    background-color: #4c4c4c !important;
+}
+html .ui-page-theme-a .switch-wrapper .ui-bar-inherit {
+  background-color: #c1c1c1;
+  border: 1px solid #c1c1c1;
+}
+/* RADIO BUTTON CONTROL
+   ----------------------------------------- */
+.ui-radio input[type=radio]:after {
+    background-image: url(radioimg.png);
+    content: "";
+}
+.ui-radio input[type=radio]:checked:after {
+    background-image: url(radioimg-selected-red.png);
+    content: "";
+}
+
+/* CHECKBOX BUTTON CONTROL
+   ----------------------------------------- */
+
+html .ui-page-theme-a .ui-checkbox .ui-btn {
+  background: transparent;
+  border: none;
+  color: #666666;
+}
+.ui-checkbox input[type=checkbox]:after {
+    background-image: url(checkboximg.png);
+    content: "";
+}
+.ui-checkbox input[type=checkbox]:checked:after {
+    background-image: url(checkboximg-selected-red.png);
+    content: "";
+}
+/* DROPDOWN CONTROL
+   ----------------------------------------- */
+
+/* DATE CONTROL
+   ----------------------------------------- */
+.date-wrapper .date-icon {
+    background: url("date-icon-red.svg") 50% 50% no-repeat !important;
+}
+
+/* BARCODE CONTROL
+   ----------------------------------------- */
+html .ui-page-theme-a .barcode-wrapper .ui-btn {
+    background: transparent;
+    color: #FF6B57;
+}
+html .ui-page-theme-a .barcode-wrapper .ui-btn:hover {
+    background: transparent;
+    color: #FF6B57;
+}
+.barcode-list .code-name{
+    color: #FF6B57;
+}
+/* NFC CONTROL
+   ----------------------------------------- */
+html .ui-page-theme-a .nfc-wrapper .ui-btn {
+  background: transparent;
+  color: #FF6B57;
+}
+html .ui-page-theme-a .nfc-wrapper .ui-btn:hover {
+    background: transparent;
+    color: #FF6B57;
+}
+/* CAMERA CONTROL
+   ----------------------------------------- */
+.ui-icon-camera-custom:after {
+    background: url("camera-icon-red.svg") 50% 50% no-repeat;
+}
+.ui-icon-camera-plus-custom:after {
+    background: url("camera-plus-icon.svg") 50% 50% no-repeat;
+}
+
+/* AUDIO CONTROL
+   ----------------------------------------- */
+.ui-icon-audio-cus:after {
+    background: url("audio-icon.svg") 50% 50% no-repeat;
+} 
+html .ui-page-theme-a .audio-wrapper .ui-btn {
+    color: #FF6B57 !important;
+}
+.audio-record-list .code-name{
+    color: #FF6B57;
+}
+/* YOUTUBE CONTROL
+   ----------------------------------------- */
+
+/* LISTVIEW CONTROL
+   ----------------------------------------- */
+.list-total-header{
+     color: #000000;
+    font-size: 12px;
+    border-bottom: 1px solid #e6e7e8 !important;
+    border-top: 1px solid #e6e7e8 !important;
+    background: #fbfbfb;
+}
+
+/* NO-RECORDS IN LIST VIEW
+   ----------------------------------------- */
+
+.no-records h3{ color: #FF6B57;}
+.no-records h4{ color: #666666;}
+ .load-more .ui-btn {
+    color: #FF6B57!important;    
+}
+
+ .ui-checkbox input[type=checkbox]:after {
+    width: 23px;  
+    height: 23px;
+    display:block;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+
+.ui-checkbox input::-ms-check {
+    border: 0;
+    color: #fff;
+    background-color:  rgb(255, 107, 87);;
+}
+.ui-radio input::-ms-check {
+    border: 0;
+    color: #fff;
+    background-color:  rgb(255, 107, 87);;
+}
+/* Popup
+   ----------------------------------------- */
+ .modal-content .modal-header {
+    background: #FF6B57;
+}
+ .modal-content .modal-footer a.primary-btn,
+.modal-content .modal-footer a.primary-btn:hover,.modal-content .modal-footer a.primary-btn:focus,
+.modal-content .modal-footer a.secondary-btn {
+    color: #FF6B57 !important;
+}
+  /* geolocation
+   ----------------------------------------- */
+ .geolocation-wrapper .ui-input-text input {
+  color: #FF6B57;
+}
+ /*-------------  Link-control------------------*/
+.link-wrapper a {
+  color: #FF6B57 !important;
+}
+
+/*-------------  audio-play-modal-seekbar------------------*/
+.seekbar-thumb-needle {
+    background-color: #FF6B57 !important;
+}
+.seekbar-thumb {
+    background-color: #FFA399 !important;
+}
+.seekbar-negative {
+    background-color: #FF6B57 !important;
+}
+.player-current-duration{
+    color: #FF6B57;	
+}
+
+/***** CSS HACK FOR MOZILA BROWSER (Radio & Checkbox) *****/
+@-moz-document url-prefix() {
+    input[type="checkbox"] {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        box-sizing: borer-box;
+        height: 25px;
+        width: 25px;
+        cursor: pointer;
+        background: url(checkboximg.png) no-repeat 0 0;
+    }
+    input[type="checkbox"]:checked {
+        background: url(checkboximg-selected-red.png);
+    }
+ input[type="radio"] {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        box-sizing: borer-box;
+        height: 25px;
+        width: 25px;
+        cursor: pointer;
+        background: url(radioimg.png) no-repeat 0 0;
+    }
+    input[type="radio"]:checked {
+        background: url(radioimg-selected-red.png);
+    }
+}

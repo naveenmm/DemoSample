@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery Mobile Form</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" href="theme/fontIcons.css">
+    <link rel="stylesheet" href="theme/green.css">
+    <link rel="stylesheet" href="theme/custom.css">
+    <link rel="stylesheet" href="theme/blue.css">
+    <link rel="stylesheet" href="theme/red.css">
+
+
+</head>
+<body>
+    <div data-role='page' id='page2' data-geny-id='page2' data-controltype='page' data-role-type='formpage' name='page2' class='item-page2 '>
+        <div role='main' class='ui-content mainFormContainer valid-droppable-container'>
+            <div class='alignment-wrapper alignment-wrapper-label1'><div class='ui-grid-a canvas-ctrl label-ctrl item-label1 label1-margin' id='item-label1'><div class='ui-body label-wrapper'><label data-geny='label1' data-controltype='label' id='label1' parent-ctrl-id='item-label1' name='label1' class='label1 label1-border label1-padding' onclick="">Favorite Restruants</label></div></div></div>
+            <div class='alignment-wrapper alignment-wrapper-textbox2'><div class='ui-grid-a canvas-ctrl item-textbox2 textbox2-margin ' id='item-textbox2'><div id='container-textbox2' class='ui-body textbox-wrapper  textbox2-border'> <span id='is-asterisk' class='asterisk-validate'>*</span><input class='controller textbox2-padding' data-mini='true' data-geny='textbox2' id='textbox2' parent-ctrl-id='item-textbox2' type='text' data-controltype='textbox' name='textbox2' onblur="" placeholder='' maxlength='150'></input><span class='ui-icon-eye-icon' onclick="executeEvent('togglePasswordVisibility','form1','page2','textbox2');"></span><p class='error-req'></p> </div></div></div>
+            <div class='alignment-wrapper alignment-wrapper-textbox7'><div class='ui-grid-a canvas-ctrl item-textbox7 textbox7-margin ' id='item-textbox7'><div id='container-textbox7' class='ui-body textbox-wrapper  textbox7-border'> <span id='is-asterisk' class='asterisk-validate'>*</span><input class='controller textbox7-padding' data-mini='true' data-geny='textbox7' id='textbox7' parent-ctrl-id='item-textbox7' type='text' data-controltype='textbox' name='textbox7' onblur="" placeholder='' maxlength='150'></input><span class='ui-icon-eye-icon' onclick="executeEvent('togglePasswordVisibility','form1','page2','textbox7');"></span><p class='error-req'></p> </div></div></div>
+            <div class='alignment-wrapper alignment-wrapper-label8'><div class='ui-grid-a canvas-ctrl label-ctrl item-label8 label8-margin' id='item-label8'><div class='ui-body label-wrapper'><label data-geny='label8' data-controltype='label' id='label8' parent-ctrl-id='item-label8' name='label8' class='label8 label8-border label8-padding' onclick="">Favorite food</label></div></div></div>
+            <div class='alignment-wrapper alignment-wrapper-dropdown9'>
+                <div class='ui-grid-a canvas-ctrl ui-responsive ui-field-contain item-dropdown9  dropdown9-margin dropdown9-padding' id='item-dropdown9'>
+                    <div class='ui-body dropdown-wrapper'>
+                        <span id='is-asterisk' class='asterisk-validate'>*</span>
+                        <div class='ui-field-contain dropdown9-border controller'><select data-geny='dropdown9' onchange="" data-geny-default='key-select-a-value' name='dropdown9' id='dropdown9' parent-ctrl-id='item-dropdown9' data-controltype='dropdown'><option selected value='key-select-a-value'>Select food</option><option value='Choice_MtHn'>Biriyani</option><option value='ZUML'>Pasta</option><option value='zT3x'>Pizza</option><option value='vTh5'>Burger</option></select></div><p class='error-req'></p>
+                    </div>
+                </div>
+            </div>
+            <div class='alignment-wrapper alignment-wrapper-switch10'><div class='ui-grid-a canvas-ctrl widget-icon-position item-switch10 switch10-margin' id='item-switch10'><div class='ui-body switch-wrapper'><div class='switch10-border switch-container switch10-padding'><div class='toggle-text switch10'><label id='lbl-switch10'>hmm</label></div><div class='toggle-btn'><input type='checkbox' data-geny='switch10' id='switch10' parent-ctrl-id='item-switch10' default-state='0' data-role='flipswitch' data-controltype='flipswitch' data-on-text='' data-off-text='' name='switch10' data-on-value='ON' data-off-value='OFF'></div><div class='clear'></div></div></div></div></div>
+            <div class='alignment-wrapper alignment-wrapper-radiobuttonlist11'>
+                <div class='ui-grid-a canvas-ctrl ui-responsive radio-wrapper  item-radiobuttonlist11 radiobuttonlist11-margin' id='item-radiobuttonlist11'>
+                    <div class='ui-body'>
+                        <span id='is-asterisk' class='asterisk-validate'>*</span>
+                        <fieldset data-role='controlgroup' onchange="" class='radiobuttonlist11 controller radiobuttonlist11-border radiobuttonlist11-padding widget-icon-position' data-geny='radiobuttonlist11' data-geny-default='key-select-a-value' name='radiobuttonlist11' id='radiobuttonlist11' parent-ctrl-id='item-radiobuttonlist11' data-controltype='radiobuttonlist'>
+                            <div class='ui-grid-a ui-responsive'><input type='radio' name='radiobuttonlist11' id='radiobutton73' data-geny='radiobutton73' value='RW8w'><label for='radiobutton73' class='madp-canvas-radio-filled'>Pepsi</label></div>
+                            <div class='ui-grid-a ui-responsive'><input type='radio' name='radiobuttonlist11' id='radiobutton74' data-geny='radiobutton74' value='GbWM'><label for='radiobutton74' class='madp-canvas-radio-filled'>Coco Cola</label></div>
+
+                        </fieldset><p class='error-req'></p>
+                    </div>
+                </div>
+            </div>
+            <div class='alignment-wrapper alignment-wrapper-date14'>
+                <div class='ui-grid-a canvas-ctrl item-date14 date14-margin ' id='item-date14'>
+                    <div class='ui-body date-wrapper '>
+                        <span id='is-asterisk' class='asterisk-validate'>*</span><div class='date-form date14 date14-border'>
+                            <input class='controller date14-padding' data-mini='true' data-geny='date14'
+                                   id='date14' parent-ctrl-id='item-date14' type='text' data-controltype='date' name='date14' placeholder='Favorite day' onclick="executeEvent('openDatePicker','form1','page2','date14');" readonly></input><span class='img-cont' onclick="executeEvent('openDatePicker','form1','page2','date14');">
+                                <span class='date-icon madp-canvas-calendar'>
+                                    <span class='path1'></span><span class='path2'></span><span class='path3'></span><span class='path4'></span><span class='path5'></span><span class='path6'></span><span class='path7'></span><span class='path8'></span><span class='path9'></span>
+                                </span>
+                            </span>
+                        </div><div class=clearfix></div><p class='error-req'></p>
+                    </div>
+                </div>
+            </div>
+            <div class='alignment-wrapper alignment-wrapper-map15 '><div class='ui-grid-a canvas-ctrl item-map15 map15-margin' id='item-map15'><div class='map-container controller map15-border map15-padding'><div id='map15' parent-ctrl-id='item-map15' data-geny='map15' data-controltype='map' class='map-wrapper' data-error-refresh-container='error-refresh-map15' data-error-msg='error-msg-map15' data-error-submsg='error-submsg-map15' data-error-container='error-map15'></div><div id='error-map15' class='map-error-location-section-box pos-rel' ng-style='widgetHeight'><div class='pos-abs map-error-location-section'><div class='pos-rel map-error-container'><div class='map-error-content'><div class='icon-52 madp-canvas-exclamation-sign'></div><div id='error-msg-map15' class='map-error-heading'></div><div id='error-submsg-map15'></div><div id='error-refresh-map15'><span></span></div></div></div></div></div></div></div></div>
+            <div class='alignment-wrapper alignment-wrapper-listView16'><div class='canvas-ctrl collection-wrapper listView16-margin listView16-padding listView16-border pb-0' id='container-listView16'><div id='item-listView16' class='item-listView16'><div id='listView16' class='controller' parent-ctrl-id='container-listView16' data-geny='listView16' data-container-table='listView16_table' data-container-table-body='listView16_table_body' data-load-more-button='listView16_load_more'><table id='listView16_table' data-geny='listView16_table'><thead class='header'><tr><th></th></tr></thead><tbody id='listView16_table_body' data-geny='listView16_table_body' collection-widget-id='listView16'></tbody></table></div></div><div id='listView16_load_more' class='hide-element' data-geny='listView16_load_more' collection-widget-id=listView16 onclick='executeEvent(' LoadMoreOnScrollEnd','form1','page2', this);'>Load more...</div><div class='clear'></div></div></div><div data-role='popup' id='listView16_action_popup' data-record-info='' class='actions-popup ui-content' data-theme='a'></div>
+            <div class='alignment-wrapper alignment-wrapper-layout3'>
+                <div id='item-layout3' class='ui-grid-a canvas-ctrl item-layout3 layout3-margin layout-control'>
+                    <div class='ui-body layout-wrapper item-layout3-scrollY item-layout3-scrollX'>
+                        <ul data-geny='layout3' data-controltype='layout' id='layout3' parent-ctrl-id='item-layout3' name='layout3' class='layout3 layout3Agent layout3-border layout3-padding '>
+                            <li layout-child style='width:50%' class='layoutcell4Agent  layoutcell4-border layoutcell4-margin layoutcell4-padding' data-geny='layoutcell4'><div id='layoutcell4_cell' class='layout-control-style valid-droppable-container'></div></li>
+                            <li layout-child style='width:50%' class='layoutcell5Agent  layoutcell5-border layoutcell5-margin layoutcell5-padding' data-geny='layoutcell5'>
+                                <div id='layoutcell5_cell' class='layout-control-style valid-droppable-container'>
+                                    <div class='alignment-wrapper alignment-wrapper-button6'><div class='ui-grid-a canvas-ctrl ui-responsive button-wrapper item-button6 button6-border button6-margin button6-padding' id='item-button6'><div class='ui-body controller'><div><input type='button' id='button6' parent-ctrl-id='item-button6' data-geny='button6' name='button6' onclick="executeEvent('MultipleActions', 'form1', 'page2', 'button6_click')" class='ui-btn ui-mini ui-btn-inline' data-controltype='button' value='Submit'></input></div></div></div></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div data-role="popup" id="audio_player" data-dismissible="false" data-history="false" data-overlay-theme="b" data-position-to="window" class="ui-corner-all ui-popup ui-body-a ui-overlay-shadow"><div class="player-popup-div"><h3 id="audio_player_file_name"></h3><a href="#" onclick="executeEvent('StopAudioPlayer','<formDataGenyIdPlaceHolder>','<formPageDataGenyIdPlaceHolder>','audio_player')" class="ui-corner-all ui-btn-icon-notext ui-btn-right popup-close-icon"><img src='../theme/close-red-popup.png' /></a><div id="audio_player_seekbar" class="player-seekbar"></div><br /><div><span id="audio_player_current_position" class="player-current-duration">00:00:00</span><span id="audio_player_total_duration" class="player-total-duration">00:00:00</span></div><br /><div class="player-button-container"><span id="audio_player_toggle_button" onclick="executeEvent('toggleAudioPlayer','<formDataGenyIdPlaceHolder>','<formPageDataGenyIdPlaceHolder>','audio_player')"></span></div></div></div><div data-role='popup' id='genericPopup' data-overlay-theme='b' data-theme='b' data-dismissible='false' class='modal-content'><div role='main' class='ui-content popupContent modal-header'><h3 class='ui-title header-title' id='genericPopupContent'></h3></div><div class='modal-body' id='bodyContent'><p></p> </div><div role='footer' data-theme='a' id='genericPopupFooter' class='modal-footer'><a href='#' class='ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b primary-btn margin-left0' id='buttonCancel' data-rel='cancel'></a><a href='#' class='ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b primary-btn' id='buttonSave' data-rel='save'></a><a href='#' class='ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b primary-btn' id='buttonGeneric' data-rel='save'></a></div></div>
+</body>
+<script type="text/javascript" src="index.js"></script>
+</html>
